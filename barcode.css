@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.container-fluid{
+    padding: 0;
+}
+img {
+  width: 1.5rem;
+}
+#fetch {
+  width: 4rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+.sunny {
+  background-color: #f6bb42;
+}
+.btn {
+  font-weight: bold;
+}
+.printBtn{
+    margin-top: 1.2rem;
+    height: 2.5rem;
+    width: 5rem;
+    /* border: 1px solid black; */
+    outline: none;
+}
+.container {
+  border: 1px solid black;
+  margin: 0;
+}
+label{
+    font-weight: bold;
+}
+.item-checkbox{
+    background-color: #f6bb42 !important;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
